@@ -16,6 +16,8 @@
 # - $filePath: file path of a file to load
 # - $encoding: encoding name
 ##===================================================================
+set auto_noexec 1;
+package require Tcl 8.6;
 namespace eval ::gCS {
 	#=== gCS.js (Yuji SODE,2017): the MIT License; https://gist.github.com/YujiSODE/a8d3ba4f02567533124a6fd05563f125 ===
 	#These functions ("gCS_color" and "gCS_pattern") generate a stratum for geological columnar section on a given canvas tag. "gCS_scale" generates scale bar.
