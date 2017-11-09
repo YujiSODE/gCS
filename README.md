@@ -36,8 +36,16 @@ All descriptions should be put between relating blocks. These blocks must be esc
     #TXT
 
 ### 3-1. Block: `@VAR`
+Tcl variables in namespace `::gCS` are declared in this block.  
+Title, size of figure, names of strata etc. are declared here.  
+
 ### 3-2. Block: `@FIG`
+All descriptions in this block must be escaped with `#`.  
+A columnar section is described using declared strata name between `@VAR`.  
+
 ### 3-3. Block: `@TXT`
+All descriptions in this block must be escaped with `#`.  
+All descriptions in this block are regarded as additional information.  
 
 ## 4. Library list
 - gCS.js (Yuji SODE,2017): the MIT License; https://gist.github.com/YujiSODE/a8d3ba4f02567533124a6fd05563f125  
