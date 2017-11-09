@@ -41,7 +41,7 @@ Title, size of figure, names of strata etc. are declared here.
 
 ### 3-2. Block: `@FIG`
 All descriptions in this block must be escaped with `#`.  
-A columnar section is described using declared strata name between `@VAR`.  
+A columnar section is described using declared names of strata between `@VAR`.  
 
 ### 3-3. Block: `@TXT`
 All descriptions in this block must be escaped with `#`.  
