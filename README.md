@@ -21,3 +21,5 @@ It requires Tcl/Tk 8.6+.
 - source code of geological columnar section as a tcl file; formatted with following syntaxes
 
 ## 3. Syntax
+Source code of geological columnar section consits of three blocks: `@VAR`, `@FIG` and `@TXT`.  
+All descriptions should be put between relating blocks.
