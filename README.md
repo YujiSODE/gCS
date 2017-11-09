@@ -29,3 +29,6 @@ All descriptions should be put between relating blocks.
 ### 3-3. Block: `@TXT`
 
 ## 4. Library list
+- gCS.js (Yuji SODE,2017): the MIT License; https://gist.github.com/YujiSODE/a8d3ba4f02567533124a6fd05563f125  
+  \(base64 encoded dataurl version on Sat_Nov_04_05:05:13_GMT_2017\)
+  
