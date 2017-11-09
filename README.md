@@ -1,6 +1,7 @@
 # gCS
 Interpreter that reads source code and outputs geological columnar section as HTML file in the current directory.  
-GitHub: https://github.com/YujiSODE/gCS
+GitHub: https://github.com/YujiSODE/gCS  
+Wiki:
 >Copyright (c) 2017 Yuji SODE \<yuji.sode@gmail.com\>  
 >This software is released under the MIT License.  
 >See LICENSE or http://opensource.org/licenses/mit-license.php
