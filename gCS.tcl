@@ -139,7 +139,7 @@ namespace eval ::gCS {
 						set js_dy [lindex $v_1 0];
 						#cf. javascript: gCS_pattern(cvs,x0,y0,dx1,dx2,dy,src,text)->[x,y]
 						append html_0 "xy=gCS_pattern\(c,xy\[0\],xy\[1\],${js_dx1},${js_dx2},${js_dy},\"${std_1}\"[expr {[llength $v_2]>0?",\"$v_2\"":{}}]\)\;";
-						incr cH $js_dy;
+						set cH [expr {$cH+$js_dy}];
 					} else {
 						#when source image is CSS <color> value
 						set js_dx1 [expr {double(${std_0})+double([lindex $v_1 1])}];
@@ -147,13 +147,13 @@ namespace eval ::gCS {
 						set js_dy [lindex $v_1 0];
 						#cf. javascript: gCS_color(cvs,x0,y0,dx1,dx2,dy,color,text)->[x,y]
 						append html_0 "xy=gCS_color\(c,xy\[0\],xy\[1\],${js_dx1},${js_dx2},${js_dy},\"${std_1}\"[expr {[llength $v_2]>0?",\"$v_2\"":{}}]\)\;";
-						incr cH $js_dy;
+						set cH [expr {$cH+$js_dy}];
 					};
 				} else {
 					#++ when the current stratum name is not declared ++
 					set js_dy [lindex $v_1 0];
 					append html_0 "xy=gCS_color\(c,xy\[0\],xy\[1\],[expr floor([lindex $_SIZE 0]/4)],0,${js_dy},\"\#0000\"[expr {[llength $v_2]>0?",\"$v_2\"":{}}]\)\;";
-						incr cH $js_dy;
+					set cH [expr {$cH+$js_dy}];
 				};
 			};
 		};
