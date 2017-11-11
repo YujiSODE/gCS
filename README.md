@@ -35,15 +35,15 @@ All descriptions should be put between relating blocks. These blocks must be esc
     #...
     #TXT
 
-### 3-1. Block: `@VAR`
+### 3-1. Block `@VAR`
 Tcl variables in namespace `::gCS` are declared in this block.  
 Title, size of figure, names of strata etc. are declared here.  
 
-### 3-2. Block: `@FIG`
+### 3-2. Block `@FIG`
 All descriptions in this block must be escaped with `#`.  
 A columnar section is described using declared names of strata between `@VAR`.  
 
-### 3-3. Block: `@TXT`
+### 3-3. Block `@TXT`
 All descriptions in this block must be escaped with `#`.  
 All descriptions in this block are regarded as additional information.  
 
